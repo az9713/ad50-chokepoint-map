@@ -1,0 +1,352 @@
+[
+ {
+  "name": "Ambrosia Energy",
+  "location": "Austin, TX",
+  "founded": 2024,
+  "pillar": "Inputs",
+  "summary": "Builds off-grid solar-plus-battery plants for businesses that cannot wait for a grid connection; first West Texas site under construction in 2026."
+ },
+ {
+  "name": "Amca",
+  "location": "El Segundo, CA",
+  "founded": 2024,
+  "pillar": "Factories",
+  "summary": "Re-engineers hard-to-source aerospace and defense components, including parts with long lead times or missing technical data."
+ },
+ {
+  "name": "Anduril Industries",
+  "location": "Costa Mesa, CA",
+  "founded": 2017,
+  "pillar": "Systems",
+  "summary": "Autonomous defense systems tied together by its Lattice software; building Fury combat aircraft at its Arsenal-1 campus in Ohio."
+ },
+ {
+  "name": "Apex",
+  "location": "Los Angeles, CA",
+  "founded": 2022,
+  "pillar": "Systems",
+  "summary": "Mass-produces standardized satellite buses (power and propulsion) so customers can focus on payloads."
+ },
+ {
+  "name": "Arda",
+  "location": "San Francisco, CA",
+  "founded": 2025,
+  "pillar": "Factories",
+  "summary": "Software that turns hardware designs into assembly plans and work instructions; used inside Anduril's manufacturing stack."
+ },
+ {
+  "name": "Astranis",
+  "location": "San Francisco, CA",
+  "founded": 2015,
+  "pillar": "Systems",
+  "summary": "Small geostationary communications satellites dedicated to a single operator or government."
+ },
+ {
+  "name": "Atomic Industries",
+  "location": "Detroit, MI",
+  "founded": 2021,
+  "pillar": "Factories",
+  "summary": "Automates injection-mold design and production with physics simulation, supplying molded plastic parts."
+ },
+ {
+  "name": "Base Power",
+  "location": "Austin, TX",
+  "founded": 2023,
+  "pillar": "Inputs",
+  "summary": "Home batteries, built in Austin, that support the grid while keeping backup power for outages."
+ },
+ {
+  "name": "Castelion",
+  "location": "Torrance, CA",
+  "founded": 2022,
+  "pillar": "Systems",
+  "summary": "Low-cost hypersonic missiles meant to be bought in large numbers; building a production campus in New Mexico."
+ },
+ {
+  "name": "CHAOS Industries",
+  "location": "Los Angeles, CA",
+  "founded": 2022,
+  "pillar": "Systems",
+  "summary": "Distributed radar systems built from arrays of smaller antennas for early warning and precision tracking."
+ },
+ {
+  "name": "Chariot Defense",
+  "location": "San Bruno, CA",
+  "founded": 2024,
+  "pillar": "Inputs",
+  "summary": "Tactical power systems that keep drones, sensors and electronic-warfare gear running in the field."
+ },
+ {
+  "name": "Covenant",
+  "location": "US / Germany / Israel",
+  "founded": 2024,
+  "pillar": "Systems",
+  "summary": "Long-range precision-strike missile designed for mass production in the US, Germany and Israel."
+ },
+ {
+  "name": "CX2",
+  "location": "El Segundo, CA",
+  "founded": 2024,
+  "pillar": "Systems",
+  "summary": "Electronic-warfare systems that locate and disrupt hostile radio signals, including drone links and jammers."
+ },
+ {
+  "name": "Diode",
+  "location": "New York, NY",
+  "founded": 2024,
+  "pillar": "Factories",
+  "summary": "Tools that let engineers write circuit board designs as code and get boards built with fewer supplier handoffs."
+ },
+ {
+  "name": "Forterra",
+  "location": "Clarksburg, MD",
+  "founded": 2002,
+  "pillar": "Systems",
+  "summary": "Unmanned ground vehicles for resupply and casualty evacuation, fielded in Ukraine."
+ },
+ {
+  "name": "Endurance Energy",
+  "location": "Seattle, WA",
+  "founded": 2025,
+  "pillar": "Inputs",
+  "summary": "Modular generators that turn undersea hydrothermal heat into electricity for coastal grids."
+ },
+ {
+  "name": "Foundry Robotics",
+  "location": "San Francisco Bay Area, CA",
+  "founded": 2025,
+  "pillar": "Factories",
+  "summary": "Flexible robotic assembly cells that move hardware from prototype to production without a dedicated factory per product."
+ },
+ {
+  "name": "General Matter",
+  "location": "El Segundo, CA",
+  "founded": 2024,
+  "pillar": "Inputs",
+  "summary": "Building domestic HALEU uranium enrichment at Paducah, Kentucky, backed by a DOE award."
+ },
+ {
+  "name": "Generalist",
+  "location": "San Mateo, CA",
+  "founded": 2024,
+  "pillar": "Factories",
+  "summary": "AI models that teach robots dexterous physical tasks from demonstrations."
+ },
+ {
+  "name": "Hadrian",
+  "location": "Torrance, CA",
+  "founded": 2021,
+  "pillar": "Factories",
+  "summary": "Highly automated precision machining factories for aerospace and defense programs."
+ },
+ {
+  "name": "Helsing",
+  "location": "Munich, Germany",
+  "founded": 2021,
+  "pillar": "Systems",
+  "summary": "AI-driven autonomous strike drones and aircraft, produced in distributed factories across allied countries."
+ },
+ {
+  "name": "Hermeus",
+  "location": "Los Angeles, CA",
+  "founded": 2018,
+  "pillar": "Systems",
+  "summary": "Uncrewed high-speed aircraft built through rapid prototype iteration; licensed to manufacture F100 engines."
+ },
+ {
+  "name": "Heron Power",
+  "location": "Scotts Valley, CA",
+  "founded": 2024,
+  "pillar": "Inputs",
+  "summary": "Solid-state power electronics that take over transformer functions for grid connections."
+ },
+ {
+  "name": "Impulse Space",
+  "location": "Redondo Beach, CA",
+  "founded": 2021,
+  "pillar": "Systems",
+  "summary": "Orbital transfer vehicles that move spacecraft between orbits."
+ },
+ {
+  "name": "K2 Space",
+  "location": "Torrance, CA",
+  "founded": 2022,
+  "pillar": "Systems",
+  "summary": "Large, high-power satellites for communications and defense, built mostly in-house."
+ },
+ {
+  "name": "Mach Industries",
+  "location": "Huntington Beach, CA",
+  "founded": 2023,
+  "pillar": "Systems",
+  "summary": "Unmanned strike aircraft and munitions with in-house propulsion and a retoolable factory network."
+ },
+ {
+  "name": "Mariana Minerals",
+  "location": "San Francisco, CA",
+  "founded": 2024,
+  "pillar": "Inputs",
+  "summary": "Automates mining and refining; owns a copper mine and refinery in Utah and is developing lithium in Texas."
+ },
+ {
+  "name": "Mind Robotics",
+  "location": "Palo Alto, CA",
+  "founded": 2025,
+  "pillar": "Factories",
+  "summary": "AI models and robot hardware for factory jobs that fixed automation struggles with, tested in Rivian plants."
+ },
+ {
+  "name": "Neros Technologies",
+  "location": "Torrance, CA",
+  "founded": 2023,
+  "pillar": "Systems",
+  "summary": "First-person-view attack and interceptor drones built on a supply chain it says avoids China."
+ },
+ {
+  "name": "Nominal",
+  "location": "Los Angeles, CA",
+  "founded": 2022,
+  "pillar": "Factories",
+  "summary": "Test and telemetry data platform for hardware teams, from prototype through production."
+ },
+ {
+  "name": "Northwood",
+  "location": "Torrance, CA",
+  "founded": 2023,
+  "pillar": "Systems",
+  "summary": "Ground-station antennas and network service for satellite operators."
+ },
+ {
+  "name": "Peak Energy",
+  "location": "Burlingame, CA",
+  "founded": 2023,
+  "pillar": "Inputs",
+  "summary": "Sodium-ion grid batteries that need less cooling; factory planned in Sacramento."
+ },
+ {
+  "name": "Perennial Autonomy",
+  "location": "California",
+  "founded": 2023,
+  "pillar": "Systems",
+  "summary": "Interceptor, reconnaissance and strike drones under a multi-year Pentagon procurement contract."
+ },
+ {
+  "name": "Podium Automation",
+  "location": "Brooklyn, NY",
+  "founded": 2024,
+  "pillar": "Factories",
+  "summary": "Designs and builds industrial control panels with its own software and automated wire processing."
+ },
+ {
+  "name": "Prometheus",
+  "location": "San Francisco, CA",
+  "founded": 2025,
+  "pillar": "Factories",
+  "summary": "AI models for engineering design and simulation of complex hardware."
+ },
+ {
+  "name": "Radiant",
+  "location": "El Segundo, CA",
+  "founded": 2020,
+  "pillar": "Inputs",
+  "summary": "Factory-built, transportable 1 MW microreactors aimed at military bases and remote sites."
+ },
+ {
+  "name": "Redwood Materials",
+  "location": "Carson City, NV",
+  "founded": 2017,
+  "pillar": "Inputs",
+  "summary": "Recycles used batteries and scrap into battery materials, and reuses EV packs for grid storage."
+ },
+ {
+  "name": "Relativity Space",
+  "location": "Long Beach, CA",
+  "founded": 2015,
+  "pillar": "Systems",
+  "summary": "Developing the reusable Terran R launch vehicle."
+ },
+ {
+  "name": "Saronic Technologies",
+  "location": "Austin, TX",
+  "founded": 2022,
+  "pillar": "Systems",
+  "summary": "Autonomous surface vessels for the Navy, plus a large new shipyard in Texas."
+ },
+ {
+  "name": "SendCutSend",
+  "location": "Reno, NV",
+  "founded": 2018,
+  "pillar": "Factories",
+  "summary": "Instant-quote online service for laser-cut, machined, bent and welded custom parts."
+ },
+ {
+  "name": "Senra Systems",
+  "location": "Redondo Beach, CA",
+  "founded": 2023,
+  "pillar": "Factories",
+  "summary": "Wire harnesses for aerospace and defense, run on its own engineering and production software."
+ },
+ {
+  "name": "Shield AI",
+  "location": "San Diego, CA",
+  "founded": 2015,
+  "pillar": "Systems",
+  "summary": "Hivemind autonomy software that flies aircraft without GPS or comms, plus the V-BAT drone."
+ },
+ {
+  "name": "Skydio",
+  "location": "San Mateo, CA",
+  "founded": 2014,
+  "pillar": "Systems",
+  "summary": "Autonomous drones and docks for defense, infrastructure and public safety, built in California."
+ },
+ {
+  "name": "Specter",
+  "location": "San Francisco, CA",
+  "founded": 2025,
+  "pillar": "Systems",
+  "summary": "Vision AI with mesh sensors and rugged edge compute for factories, infrastructure and logistics."
+ },
+ {
+  "name": "Stoke Space",
+  "location": "Kent, WA",
+  "founded": 2019,
+  "pillar": "Systems",
+  "summary": "Fully reusable Nova launch vehicle, preparing for first launch from Cape Canaveral."
+ },
+ {
+  "name": "Ulysses",
+  "location": "San Francisco, CA",
+  "founded": 2023,
+  "pillar": "Systems",
+  "summary": "Underwater robots and launch-and-recovery vessels for inspection and naval missions."
+ },
+ {
+  "name": "Unlimited Industries",
+  "location": "San Francisco, CA",
+  "founded": 2025,
+  "pillar": "Factories",
+  "summary": "Software-driven design and construction of power and data infrastructure."
+ },
+ {
+  "name": "Valar Atomics",
+  "location": "El Segundo, CA",
+  "founded": 2023,
+  "pillar": "Inputs",
+  "summary": "Gas-cooled nuclear reactors and the processes to mass-manufacture them."
+ },
+ {
+  "name": "Varda",
+  "location": "El Segundo, CA",
+  "founded": 2021,
+  "pillar": "Factories",
+  "summary": "Orbital factories that process pharmaceuticals in microgravity; reentry capsules also gather hypersonic flight data."
+ },
+ {
+  "name": "Westmag",
+  "location": "South San Francisco, CA",
+  "founded": 2024,
+  "pillar": "Factories",
+  "summary": "Manufactures drone motors and robot actuators in South San Francisco, targeting tens of millions of units a year."
+ }
+]

@@ -1,0 +1,77 @@
+<title>AD 50 Chokepoint Map</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a bill-of-materials reading left to right: chokepoints, components, the 50 companies. Ranked bottlenecks and gaps below. */
+:root{
+  --bg:#f3f4f2; --panel:#ffffff; --ink:#1b2024; --muted:#5d666d; --rule:#d5d9d6; --edge:#b9c0bd;
+  --accent:#c2410c; --sys:#1f5f8b; --fac:#5b6b2f; --inp:#8a5a12; --fix:#0f766e;
+  --r5:#b91c1c; --r4:#d9480f; --r3:#c99a06; --dim:0.12;
+  --display:"Barlow Condensed","Arial Narrow",sans-serif; --body:"IBM Plex Sans",system-ui,sans-serif; --mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#121517; --panel:#1a1f22; --ink:#e6e9e7; --muted:#9aa3a8; --rule:#2c3337; --edge:#46504f;
+  --accent:#fb923c; --sys:#6aaed6; --fac:#a3b765; --inp:#e0a84a; --fix:#2dd4bf;
+  --r5:#f87171; --r4:#fb923c; --r3:#facc15; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121517; --panel:#1a1f22; --ink:#e6e9e7; --muted:#9aa3a8; --rule:#2c3337; --edge:#46504f;
+  --accent:#fb923c; --sys:#6aaed6; --fac:#a3b765; --inp:#e0a84a; --fix:#2dd4bf;
+  --r5:#f87171; --r4:#fb923c; --r3:#facc15; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55}
+.wrap{max-width:1240px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:40px}
+h1,h2{font-family:var(--display);font-weight:700;letter-spacing:.01em;text-wrap:balance;margin:0;line-height:1.05}
+h1{font-size:clamp(2.2rem,5vw,3.4rem)} h2{font-size:1.9rem}
+.eyebrow{font-family:var(--mono);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.lede{max-width:68ch;color:var(--ink)} .lede p{margin:.6em 0}
+.muted{color:var(--muted)}
+header{display:grid;gap:10px}
+.findings{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.finding{background:var(--panel);border:1px solid var(--rule);border-top:3px solid var(--accent);padding:14px 16px;display:grid;gap:6px;min-width:0}
+.finding b{font-family:var(--display);font-size:1.25rem;font-weight:600;line-height:1.15}
+.finding span{font-size:.9rem;color:var(--muted)}
+.mapgrid{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:20px;align-items:start}
+@media (max-width:900px){.mapgrid{grid-template-columns:minmax(0,1fr)}}
+.svgbox{overflow-x:auto;background:var(--panel);border:1px solid var(--rule)}
+svg text{font-family:var(--body)}
+.colhead{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;fill:var(--muted)}
+.node{cursor:pointer} .node text{font-size:12.5px;fill:var(--ink)}
+.node:focus{outline:none} .node:focus-visible rect.hit{stroke:var(--accent);stroke-width:2}
+.node rect.hit{fill:transparent}
+.edge{fill:none;stroke:var(--edge);stroke-width:1;opacity:.55;transition:opacity .15s}
+.dimmed .edge{opacity:.05} .dimmed .node{opacity:var(--dim)}
+.dimmed .edge.on{opacity:1;stroke:var(--accent);stroke-width:1.6}
+.dimmed .node.on{opacity:1} .dimmed .node.fixer{opacity:1}
+.node.fixer text{fill:var(--fix);font-weight:600}
+.node.sel text{font-weight:700}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:.82rem;color:var(--muted);margin-top:10px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.panel{background:var(--panel);border:1px solid var(--rule);padding:18px;display:grid;gap:12px;position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px);max-height:calc(100vh - 40px);overflow:auto;min-width:0}
+@media (max-width:900px){.panel{position:static;max-height:none}}
+.panel h3{font-family:var(--display);font-size:1.6rem;margin:0;line-height:1.05}
+.panel .k{font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-size:.8rem;border:1px solid var(--rule);padding:2px 8px;border-radius:3px;background:var(--bg);cursor:pointer;color:var(--ink);font-family:var(--body)}
+.chip:hover,.chip:focus-visible{border-color:var(--accent)}
+.chip.fix{border-color:var(--fix);color:var(--fix)}
+.pill{display:inline-block;font-family:var(--mono);font-size:.72rem;padding:1px 7px;border-radius:3px;color:#fff;letter-spacing:.04em}
+.src a{color:var(--sys);word-break:break-word} .src{font-size:.85rem;margin:0;padding-left:18px}
+.rank{display:grid;gap:4px}
+.rrow{display:grid;grid-template-columns:28px minmax(120px,190px) minmax(0,1fr) 44px;gap:10px;align-items:center;padding:6px 4px;border-bottom:1px solid var(--rule);cursor:pointer;background:none;border-left:0;border-right:0;border-top:0;text-align:left;color:var(--ink);font:inherit;width:100%}
+.rrow:hover,.rrow:focus-visible{background:var(--panel)}
+.rrow .n{font-family:var(--mono);color:var(--muted);font-size:.8rem}
+.rrow .lbl{font-weight:600;font-size:.92rem}
+.bar{height:14px;background:var(--rule);position:relative;border-radius:2px;overflow:hidden}
+.bar > div{height:100%}
+.rrow .v{font-family:var(--mono);font-variant-numeric:tabular-nums;text-align:right}
+.rmeta{font-size:.78rem;color:var(--muted);grid-column:2 / -1;font-family:var(--mono)}
+@media (max-width:560px){.rrow{grid-template-columns:24px minmax(0,1fr) 40px}.rrow .bar{grid-column:2 / -1;grid-row:2}}
+.formula{font-family:var(--mono);background:var(--panel);border:1px solid var(--rule);padding:10px 14px;font-size:.85rem;overflow-x:auto}
+.gaps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.gap{border-left:3px solid var(--r5);padding:4px 0 4px 12px;min-width:0}
+.gap b{font-family:var(--display);font-size:1.2rem;font-weight:600}
+.gap p{margin:.2em 0;font-size:.9rem}
+section{display:grid;gap:14px}
+.notes{font-size:.88rem;color:var(--muted);max-width:80ch}
+.notes li{margin:.3em 0} .notes a,.lede a{color:var(--sys)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>

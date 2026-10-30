@@ -1,0 +1,63 @@
+<div class="wrap">
+<header>
+  <div class="eyebrow">Based on <a href="https://www.a16z.news/p/ad-50-2026-production-is-deterrence" style="color:inherit">a16z American Dynamism 50 · 2026 · Production is Deterrence</a></div>
+  <h1>Where the AD 50 can be cut off</h1>
+  <div class="lede">
+    <p>a16z sorts the 50 companies into three pillars: <b style="color:var(--sys)">Systems</b> (what the military buys), <b style="color:var(--fac)">Factories</b> (what builds it in volume) and <b style="color:var(--inp)">Inputs</b> (materials and power). This map adds the layer a16z leaves out: the upstream chokepoints every one of them depends on, most of which no company on the list is fixing.</p>
+    <p class="muted">Read it left to right: chokepoint, then the component it feeds, then the companies that need that component. Click a chokepoint to see everything that stops if it is cut off. Click a company to trace its whole upstream chain. Companies shown in <b style="color:var(--fix)">teal</b> are the ones working on the selected chokepoint.</p>
+  </div>
+</header>
+
+<section aria-label="Key findings">
+  <div class="findings">
+    <div class="finding"><b>Tungsten ranks first, and nobody on the list touches it.</b><span>It reaches 15 of 23 Systems companies through warheads, metal stock and the carbide cutters every machine shop runs on. China mined about 83% of it in 2024.</span></div>
+    <div class="finding"><b>Chips sit under 19 of 23 Systems companies.</b><span>Autonomy, radar and electronic warfare all run on leading-edge silicon. No AD 50 company makes chips or gallium for RF parts, and China produced 99% of the world's gallium in 2024.</span></div>
+    <div class="finding"><b>Energetics affects fewer companies but runs through single suppliers.</b><span>It reaches only the 7 strike-weapon makers, so it ranks low on breadth. But there is one qualified US source of ammonium perchlorate, and the US has made no TNT since 1986.</span></div>
+    <div class="finding"><b>The list fixes labor and power, not minerals.</b><span>Seven companies chip away at the factory labor gap and nine at power. Across rare earths, gallium, germanium, antimony, tungsten and titanium, only Westmag makes a partial attempt.</span></div>
+  </div>
+</section>
+
+<section aria-label="Dependency map">
+  <h2>Dependency map</h2>
+  <div class="mapgrid">
+    <div>
+      <div class="svgbox"><svg id="map" role="img" aria-label="Dependency graph from chokepoints to components to companies"></svg></div>
+      <div class="legend">
+        <span><i style="background:var(--r5)"></i>Severe concentration (5)</span>
+        <span><i style="background:var(--r4)"></i>High (4)</span>
+        <span><i style="background:var(--r3)"></i>Moderate (3)</span>
+        <span><i style="background:var(--sys)"></i>Systems</span>
+        <span><i style="background:var(--fac)"></i>Factories</span>
+        <span><i style="background:var(--inp)"></i>Inputs</span>
+        <span><i style="background:var(--fix)"></i>Working on the selected chokepoint</span>
+      </div>
+    </div>
+    <aside class="panel" id="panel" aria-live="polite"></aside>
+  </div>
+</section>
+
+<section aria-label="Bottleneck ranking">
+  <h2>Bottleneck ranking</h2>
+  <p class="lede muted">A chokepoint scores high when many companies depend on it, its supply sits mostly in one foreign country or one supplier, and almost no one on the list is working on it. Click a row to show it on the map.</p>
+  <div class="formula">score = concentration (1–5) × companies exposed ÷ (1 + AD 50 coverage), scaled so the top score = 100<br>coverage: 1 for a company attacking the chokepoint head-on, 0.5 for a partial attack</div>
+  <div class="rank" id="rank"></div>
+</section>
+
+<section aria-label="Open gaps">
+  <h2>Gaps the AD 50 leaves open</h2>
+  <p class="lede muted">These chokepoints have no company on the list working on them. Each one is either a gap in a16z's portfolio or a market venture capital avoids, such as mining, chemistry or chip fabs.</p>
+  <div class="gaps" id="gaps"></div>
+</section>
+
+<section aria-label="Method">
+  <h2>How this was built</h2>
+  <ul class="notes">
+    <li>The 50 companies and their pillars come from a16z's <a href="https://www.a16z.news/p/ad-50-2026-production-is-deterrence">AD 50 2026: Production is Deterrence</a> (Oct 2026). Company summaries are paraphrased; read the original post for a16z's full profiles.</li>
+    <li>Independent analysis, not affiliated with or endorsed by a16z or any listed company. Code and data: <a href="https://github.com/az9713/ad50-chokepoint-map">github.com/az9713/ad50-chokepoint-map</a>.</li>
+    <li>Supplier links (for example Senra for wire harnesses or Westmag for motors) are stated in a16z's profiles. Anduril's solid rocket motor factory comes from TechCrunch, not the profile.</li>
+    <li>Which components each company uses is <b>inferred from engineering</b>: an FPV drone needs motors, batteries, boards, optics and a warhead. The profiles don't list bills of materials, so treat these links as informed estimates.</li>
+    <li>Concentration figures are verified against the sources shown for each chokepoint. Chokepoints marked <i>qualitative</i> (chips, superalloy castings, polysilicon, hypersonic test) are scored by judgment and have no verified figure here.</li>
+    <li>The ranking measures how broadly a chokepoint reaches across the list. It does not weight how critical each component is, which is why energetics ranks low despite being a single point of failure.</li>
+  </ul>
+</section>
+</div>

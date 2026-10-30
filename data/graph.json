@@ -1,0 +1,1577 @@
+{
+ "companies": [
+  {
+   "id": "Ambrosia",
+   "name": "Ambrosia Energy",
+   "loc": "Austin, TX",
+   "founded": 2024,
+   "pillar": "Inputs",
+   "desc": "Builds off-grid solar-plus-battery plants for businesses that cannot wait for a grid connection; first West Texas site under construction in 2026.",
+   "uses": [
+    "battery"
+   ]
+  },
+  {
+   "id": "Amca",
+   "name": "Amca",
+   "loc": "El Segundo, CA",
+   "founded": 2024,
+   "pillar": "Factories",
+   "desc": "Re-engineers hard-to-source aerospace and defense components, including parts with long lead times or missing technical data.",
+   "uses": [
+    "metal",
+    "work",
+    "power"
+   ]
+  },
+  {
+   "id": "Anduril",
+   "name": "Anduril Industries",
+   "loc": "Costa Mesa, CA",
+   "founded": 2017,
+   "pillar": "Systems",
+   "desc": "Autonomous defense systems tied together by its Lattice software; building Fury combat aircraft at its Arsenal-1 campus in Ohio.",
+   "uses": [
+    "motor",
+    "battery",
+    "rf",
+    "compute",
+    "pcb",
+    "harness",
+    "machined",
+    "energetics",
+    "turbine",
+    "optics"
+   ]
+  },
+  {
+   "id": "Apex",
+   "name": "Apex",
+   "loc": "Los Angeles, CA",
+   "founded": 2022,
+   "pillar": "Systems",
+   "desc": "Mass-produces standardized satellite buses (power and propulsion) so customers can focus on payloads.",
+   "uses": [
+    "battery",
+    "rf",
+    "compute",
+    "pcb",
+    "harness",
+    "machined",
+    "launch",
+    "motor"
+   ]
+  },
+  {
+   "id": "Arda",
+   "name": "Arda",
+   "loc": "San Francisco, CA",
+   "founded": 2025,
+   "pillar": "Factories",
+   "desc": "Software that turns hardware designs into assembly plans and work instructions; used inside Anduril's manufacturing stack.",
+   "uses": [
+    "compute"
+   ]
+  },
+  {
+   "id": "Astranis",
+   "name": "Astranis",
+   "loc": "San Francisco, CA",
+   "founded": 2015,
+   "pillar": "Systems",
+   "desc": "Small geostationary communications satellites dedicated to a single operator or government.",
+   "uses": [
+    "battery",
+    "rf",
+    "pcb",
+    "harness",
+    "launch",
+    "motor"
+   ]
+  },
+  {
+   "id": "Atomic",
+   "name": "Atomic Industries",
+   "loc": "Detroit, MI",
+   "founded": 2021,
+   "pillar": "Factories",
+   "desc": "Automates injection-mold design and production with physics simulation, supplying molded plastic parts.",
+   "uses": [
+    "metal",
+    "work",
+    "power"
+   ]
+  },
+  {
+   "id": "Base Power",
+   "name": "Base Power",
+   "loc": "Austin, TX",
+   "founded": 2023,
+   "pillar": "Inputs",
+   "desc": "Home batteries, built in Austin, that support the grid while keeping backup power for outages.",
+   "uses": [
+    "battery",
+    "pcb"
+   ]
+  },
+  {
+   "id": "Castelion",
+   "name": "Castelion",
+   "loc": "Torrance, CA",
+   "founded": 2022,
+   "pillar": "Systems",
+   "desc": "Low-cost hypersonic missiles meant to be bought in large numbers; building a production campus in New Mexico.",
+   "uses": [
+    "energetics",
+    "machined",
+    "harness",
+    "pcb",
+    "compute",
+    "hyptest"
+   ]
+  },
+  {
+   "id": "CHAOS",
+   "name": "CHAOS Industries",
+   "loc": "Los Angeles, CA",
+   "founded": 2022,
+   "pillar": "Systems",
+   "desc": "Distributed radar systems built from arrays of smaller antennas for early warning and precision tracking.",
+   "uses": [
+    "rf",
+    "compute",
+    "pcb",
+    "harness",
+    "power"
+   ]
+  },
+  {
+   "id": "Chariot",
+   "name": "Chariot Defense",
+   "loc": "San Bruno, CA",
+   "founded": 2024,
+   "pillar": "Inputs",
+   "desc": "Tactical power systems that keep drones, sensors and electronic-warfare gear running in the field.",
+   "uses": [
+    "battery",
+    "pcb"
+   ]
+  },
+  {
+   "id": "Covenant",
+   "name": "Covenant",
+   "loc": "US / Germany / Israel",
+   "founded": 2024,
+   "pillar": "Systems",
+   "desc": "Long-range precision-strike missile designed for mass production in the US, Germany and Israel.",
+   "uses": [
+    "energetics",
+    "machined",
+    "harness",
+    "pcb",
+    "compute"
+   ]
+  },
+  {
+   "id": "CX2",
+   "name": "CX2",
+   "loc": "El Segundo, CA",
+   "founded": 2024,
+   "pillar": "Systems",
+   "desc": "Electronic-warfare systems that locate and disrupt hostile radio signals, including drone links and jammers.",
+   "uses": [
+    "rf",
+    "compute",
+    "pcb",
+    "motor",
+    "battery"
+   ]
+  },
+  {
+   "id": "Diode",
+   "name": "Diode",
+   "loc": "New York, NY",
+   "founded": 2024,
+   "pillar": "Factories",
+   "desc": "Tools that let engineers write circuit board designs as code and get boards built with fewer supplier handoffs.",
+   "uses": [
+    "pcb"
+   ]
+  },
+  {
+   "id": "Forterra",
+   "name": "Forterra",
+   "loc": "Clarksburg, MD",
+   "founded": 2002,
+   "pillar": "Systems",
+   "desc": "Unmanned ground vehicles for resupply and casualty evacuation, fielded in Ukraine.",
+   "uses": [
+    "battery",
+    "compute",
+    "pcb",
+    "harness",
+    "rf",
+    "optics"
+   ]
+  },
+  {
+   "id": "Endurance",
+   "name": "Endurance Energy",
+   "loc": "Seattle, WA",
+   "founded": 2025,
+   "pillar": "Inputs",
+   "desc": "Modular generators that turn undersea hydrothermal heat into electricity for coastal grids.",
+   "uses": [
+    "machined"
+   ]
+  },
+  {
+   "id": "Foundry",
+   "name": "Foundry Robotics",
+   "loc": "San Francisco Bay Area, CA",
+   "founded": 2025,
+   "pillar": "Factories",
+   "desc": "Flexible robotic assembly cells that move hardware from prototype to production without a dedicated factory per product.",
+   "uses": [
+    "motor",
+    "compute",
+    "power"
+   ]
+  },
+  {
+   "id": "General Matter",
+   "name": "General Matter",
+   "loc": "El Segundo, CA",
+   "founded": 2024,
+   "pillar": "Inputs",
+   "desc": "Building domestic HALEU uranium enrichment at Paducah, Kentucky, backed by a DOE award.",
+   "uses": [
+    "power",
+    "work"
+   ]
+  },
+  {
+   "id": "Generalist",
+   "name": "Generalist",
+   "loc": "San Mateo, CA",
+   "founded": 2024,
+   "pillar": "Factories",
+   "desc": "AI models that teach robots dexterous physical tasks from demonstrations.",
+   "uses": [
+    "compute",
+    "motor"
+   ]
+  },
+  {
+   "id": "Hadrian",
+   "name": "Hadrian",
+   "loc": "Torrance, CA",
+   "founded": 2021,
+   "pillar": "Factories",
+   "desc": "Highly automated precision machining factories for aerospace and defense programs.",
+   "uses": [
+    "metal",
+    "work",
+    "power"
+   ]
+  },
+  {
+   "id": "Helsing",
+   "name": "Helsing",
+   "loc": "Munich, Germany",
+   "founded": 2021,
+   "pillar": "Systems",
+   "desc": "AI-driven autonomous strike drones and aircraft, produced in distributed factories across allied countries.",
+   "uses": [
+    "motor",
+    "battery",
+    "compute",
+    "pcb",
+    "energetics",
+    "molded",
+    "optics"
+   ]
+  },
+  {
+   "id": "Hermeus",
+   "name": "Hermeus",
+   "loc": "Los Angeles, CA",
+   "founded": 2018,
+   "pillar": "Systems",
+   "desc": "Uncrewed high-speed aircraft built through rapid prototype iteration; licensed to manufacture F100 engines.",
+   "uses": [
+    "turbine",
+    "machined",
+    "harness",
+    "pcb",
+    "hyptest"
+   ]
+  },
+  {
+   "id": "Heron Power",
+   "name": "Heron Power",
+   "loc": "Scotts Valley, CA",
+   "founded": 2024,
+   "pillar": "Inputs",
+   "desc": "Solid-state power electronics that take over transformer functions for grid connections.",
+   "uses": [
+    "pcb"
+   ]
+  },
+  {
+   "id": "Impulse",
+   "name": "Impulse Space",
+   "loc": "Redondo Beach, CA",
+   "founded": 2021,
+   "pillar": "Systems",
+   "desc": "Orbital transfer vehicles that move spacecraft between orbits.",
+   "uses": [
+    "machined",
+    "launch",
+    "pcb",
+    "harness",
+    "battery"
+   ]
+  },
+  {
+   "id": "K2 Space",
+   "name": "K2 Space",
+   "loc": "Torrance, CA",
+   "founded": 2022,
+   "pillar": "Systems",
+   "desc": "Large, high-power satellites for communications and defense, built mostly in-house.",
+   "uses": [
+    "battery",
+    "rf",
+    "pcb",
+    "harness",
+    "launch",
+    "motor"
+   ]
+  },
+  {
+   "id": "Mach",
+   "name": "Mach Industries",
+   "loc": "Huntington Beach, CA",
+   "founded": 2023,
+   "pillar": "Systems",
+   "desc": "Unmanned strike aircraft and munitions with in-house propulsion and a retoolable factory network.",
+   "uses": [
+    "energetics",
+    "machined",
+    "pcb",
+    "harness",
+    "compute"
+   ]
+  },
+  {
+   "id": "Mariana",
+   "name": "Mariana Minerals",
+   "loc": "San Francisco, CA",
+   "founded": 2024,
+   "pillar": "Inputs",
+   "desc": "Automates mining and refining; owns a copper mine and refinery in Utah and is developing lithium in Texas.",
+   "uses": [
+    "power",
+    "compute"
+   ]
+  },
+  {
+   "id": "Mind Robotics",
+   "name": "Mind Robotics",
+   "loc": "Palo Alto, CA",
+   "founded": 2025,
+   "pillar": "Factories",
+   "desc": "AI models and robot hardware for factory jobs that fixed automation struggles with, tested in Rivian plants.",
+   "uses": [
+    "compute",
+    "motor"
+   ]
+  },
+  {
+   "id": "Neros",
+   "name": "Neros Technologies",
+   "loc": "Torrance, CA",
+   "founded": 2023,
+   "pillar": "Systems",
+   "desc": "First-person-view attack and interceptor drones built on a supply chain it says avoids China.",
+   "uses": [
+    "motor",
+    "battery",
+    "pcb",
+    "molded",
+    "optics",
+    "energetics",
+    "compute",
+    "rf"
+   ]
+  },
+  {
+   "id": "Nominal",
+   "name": "Nominal",
+   "loc": "Los Angeles, CA",
+   "founded": 2022,
+   "pillar": "Factories",
+   "desc": "Test and telemetry data platform for hardware teams, from prototype through production.",
+   "uses": [
+    "compute"
+   ]
+  },
+  {
+   "id": "Northwood",
+   "name": "Northwood",
+   "loc": "Torrance, CA",
+   "founded": 2023,
+   "pillar": "Systems",
+   "desc": "Ground-station antennas and network service for satellite operators.",
+   "uses": [
+    "rf",
+    "motor",
+    "pcb",
+    "machined"
+   ]
+  },
+  {
+   "id": "Peak Energy",
+   "name": "Peak Energy",
+   "loc": "Burlingame, CA",
+   "founded": 2023,
+   "pillar": "Inputs",
+   "desc": "Sodium-ion grid batteries that need less cooling; factory planned in Sacramento.",
+   "uses": [
+    "power"
+   ]
+  },
+  {
+   "id": "Perennial",
+   "name": "Perennial Autonomy",
+   "loc": "California",
+   "founded": 2023,
+   "pillar": "Systems",
+   "desc": "Interceptor, reconnaissance and strike drones under a multi-year Pentagon procurement contract.",
+   "uses": [
+    "motor",
+    "battery",
+    "pcb",
+    "optics",
+    "energetics",
+    "compute"
+   ]
+  },
+  {
+   "id": "Podium",
+   "name": "Podium Automation",
+   "loc": "Brooklyn, NY",
+   "founded": 2024,
+   "pillar": "Factories",
+   "desc": "Designs and builds industrial control panels with its own software and automated wire processing.",
+   "uses": [
+    "harness",
+    "power"
+   ]
+  },
+  {
+   "id": "Prometheus",
+   "name": "Prometheus",
+   "loc": "San Francisco, CA",
+   "founded": 2025,
+   "pillar": "Factories",
+   "desc": "AI models for engineering design and simulation of complex hardware.",
+   "uses": [
+    "compute"
+   ]
+  },
+  {
+   "id": "Radiant",
+   "name": "Radiant",
+   "loc": "El Segundo, CA",
+   "founded": 2020,
+   "pillar": "Inputs",
+   "desc": "Factory-built, transportable 1 MW microreactors aimed at military bases and remote sites.",
+   "uses": [
+    "fuel",
+    "machined"
+   ]
+  },
+  {
+   "id": "Redwood",
+   "name": "Redwood Materials",
+   "loc": "Carson City, NV",
+   "founded": 2017,
+   "pillar": "Inputs",
+   "desc": "Recycles used batteries and scrap into battery materials, and reuses EV packs for grid storage.",
+   "uses": [
+    "power"
+   ]
+  },
+  {
+   "id": "Relativity",
+   "name": "Relativity Space",
+   "loc": "Long Beach, CA",
+   "founded": 2015,
+   "pillar": "Systems",
+   "desc": "Developing the reusable Terran R launch vehicle.",
+   "uses": [
+    "machined",
+    "harness",
+    "pcb",
+    "work"
+   ]
+  },
+  {
+   "id": "Saronic",
+   "name": "Saronic Technologies",
+   "loc": "Austin, TX",
+   "founded": 2022,
+   "pillar": "Systems",
+   "desc": "Autonomous surface vessels for the Navy, plus a large new shipyard in Texas.",
+   "uses": [
+    "compute",
+    "pcb",
+    "harness",
+    "machined",
+    "battery",
+    "rf",
+    "optics"
+   ]
+  },
+  {
+   "id": "SendCutSend",
+   "name": "SendCutSend",
+   "loc": "Reno, NV",
+   "founded": 2018,
+   "pillar": "Factories",
+   "desc": "Instant-quote online service for laser-cut, machined, bent and welded custom parts.",
+   "uses": [
+    "metal",
+    "power"
+   ]
+  },
+  {
+   "id": "Senra",
+   "name": "Senra Systems",
+   "loc": "Redondo Beach, CA",
+   "founded": 2023,
+   "pillar": "Factories",
+   "desc": "Wire harnesses for aerospace and defense, run on its own engineering and production software.",
+   "uses": [
+    "work",
+    "power"
+   ]
+  },
+  {
+   "id": "Shield AI",
+   "name": "Shield AI",
+   "loc": "San Diego, CA",
+   "founded": 2015,
+   "pillar": "Systems",
+   "desc": "Hivemind autonomy software that flies aircraft without GPS or comms, plus the V-BAT drone.",
+   "uses": [
+    "compute",
+    "pcb",
+    "harness",
+    "optics",
+    "battery"
+   ]
+  },
+  {
+   "id": "Skydio",
+   "name": "Skydio",
+   "loc": "San Mateo, CA",
+   "founded": 2014,
+   "pillar": "Systems",
+   "desc": "Autonomous drones and docks for defense, infrastructure and public safety, built in California.",
+   "uses": [
+    "motor",
+    "battery",
+    "compute",
+    "pcb",
+    "molded",
+    "optics"
+   ]
+  },
+  {
+   "id": "Specter",
+   "name": "Specter",
+   "loc": "San Francisco, CA",
+   "founded": 2025,
+   "pillar": "Systems",
+   "desc": "Vision AI with mesh sensors and rugged edge compute for factories, infrastructure and logistics.",
+   "uses": [
+    "compute",
+    "optics",
+    "pcb",
+    "battery"
+   ]
+  },
+  {
+   "id": "Stoke",
+   "name": "Stoke Space",
+   "loc": "Kent, WA",
+   "founded": 2019,
+   "pillar": "Systems",
+   "desc": "Fully reusable Nova launch vehicle, preparing for first launch from Cape Canaveral.",
+   "uses": [
+    "machined",
+    "harness",
+    "pcb",
+    "work"
+   ]
+  },
+  {
+   "id": "Ulysses",
+   "name": "Ulysses",
+   "loc": "San Francisco, CA",
+   "founded": 2023,
+   "pillar": "Systems",
+   "desc": "Underwater robots and launch-and-recovery vessels for inspection and naval missions.",
+   "uses": [
+    "motor",
+    "battery",
+    "pcb",
+    "compute",
+    "machined"
+   ]
+  },
+  {
+   "id": "Unlimited",
+   "name": "Unlimited Industries",
+   "loc": "San Francisco, CA",
+   "founded": 2025,
+   "pillar": "Factories",
+   "desc": "Software-driven design and construction of power and data infrastructure.",
+   "uses": [
+    "compute"
+   ]
+  },
+  {
+   "id": "Valar",
+   "name": "Valar Atomics",
+   "loc": "El Segundo, CA",
+   "founded": 2023,
+   "pillar": "Inputs",
+   "desc": "Gas-cooled nuclear reactors and the processes to mass-manufacture them.",
+   "uses": [
+    "fuel",
+    "machined"
+   ]
+  },
+  {
+   "id": "Varda",
+   "name": "Varda",
+   "loc": "El Segundo, CA",
+   "founded": 2021,
+   "pillar": "Factories",
+   "desc": "Orbital factories that process pharmaceuticals in microgravity; reentry capsules also gather hypersonic flight data.",
+   "uses": [
+    "launch",
+    "machined"
+   ]
+  },
+  {
+   "id": "Westmag",
+   "name": "Westmag",
+   "loc": "South San Francisco, CA",
+   "founded": 2024,
+   "pillar": "Factories",
+   "desc": "Manufactures drone motors and robot actuators in South San Francisco, targeting tens of millions of units a year.",
+   "uses": [
+    "work",
+    "power"
+   ]
+  }
+ ],
+ "choke": [
+  {
+   "id": "ree",
+   "label": "Rare earth magnets",
+   "R": 5,
+   "conf": "verified",
+   "fact": "China made 94% of the world’s permanent magnets and did 91% of rare earth refining in 2024.",
+   "src": [
+    [
+     "Oxford Economics, Aug 2026",
+     "https://www.oxfordeconomics.com/resource/policy-and-concentrated-supply-set-to-drive-rare-earth-magnet-prices/"
+    ]
+   ],
+   "fix": [
+    {
+     "co": "Westmag",
+     "w": 0.5,
+     "note": "Says it is working to control upstream parts and materials for motors."
+    }
+   ]
+  },
+  {
+   "id": "ga",
+   "label": "Gallium",
+   "R": 5,
+   "conf": "verified",
+   "fact": "China produced 99% of the world’s gallium in 2024. China banned exports to the US in Dec 2024, then paused the ban until Nov 27, 2026.",
+   "src": [
+    [
+     "USGS Mineral Commodity Summaries 2025",
+     "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf"
+    ],
+    [
+     "Mining.com, Dec 2024",
+     "https://www.mining.com/china-bans-export-of-gallium-germanium-and-antimony-to-the-us/"
+    ],
+    [
+     "Mining.com, Nov 2025",
+     "https://www.mining.com/china-lifts-export-ban-on-gallium-germanium-and-antimony-to-us/"
+    ]
+   ],
+   "fix": []
+  },
+  {
+   "id": "ge",
+   "label": "Germanium",
+   "R": 4,
+   "conf": "verified",
+   "fact": "China produced 59% of refined germanium in 2023 and put it under the same export ban as gallium.",
+   "src": [
+    [
+     "Mining.com citing Project Blue",
+     "https://www.mining.com/china-bans-export-of-gallium-germanium-and-antimony-to-the-us/"
+    ]
+   ],
+   "fix": []
+  },
+  {
+   "id": "sb",
+   "label": "Antimony",
+   "R": 4,
+   "conf": "verified",
+   "fact": "China mined about 60% of the world’s antimony in 2024 (USGS estimate) and included it in the 2024 export ban. Antimony goes into primers and munitions.",
+   "src": [
+    [
+     "USGS Mineral Commodity Summaries 2025",
+     "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf"
+    ]
+   ],
+   "fix": []
+  },
+  {
+   "id": "w",
+   "label": "Tungsten",
+   "R": 5,
+   "conf": "verified",
+   "fact": "China mined about 83% of the world’s tungsten in 2024. Tungsten is used for penetrators, fragmentation and the carbide cutting tools every machine shop runs on.",
+   "src": [
+    [
+     "USGS Mineral Commodity Summaries 2025",
+     "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf"
+    ]
+   ],
+   "fix": []
+  },
+  {
+   "id": "ti",
+   "label": "Titanium sponge",
+   "R": 4,
+   "conf": "verified",
+   "fact": "The US produced no titanium sponge in 2025. The last domestic plant closed in 2024, and about 44,000 tonnes were imported.",
+   "src": [
+    [
+     "USGS Mineral Commodity Summaries 2026, Titanium",
+     "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-titanium.pdf"
+    ]
+   ],
+   "fix": []
+  },
+  {
+   "id": "cast",
+   "label": "Superalloy castings",
+   "R": 3,
+   "conf": "qualitative",
+   "fact": "Turbine-grade nickel superalloy castings come from a small number of suppliers. Concentration is widely reported but not verified with a figure here.",
+   "src": [],
+   "fix": [
+    {
+     "co": "Amca",
+     "w": 0.5,
+     "note": "Re-engineers parts facing limited supply."
+    },
+    {
+     "co": "Hermeus",
+     "w": 0.5,
+     "note": "Licensed to build F100 engines."
+    }
+   ]
+  },
+  {
+   "id": "batt",
+   "label": "Battery materials",
+   "R": 5,
+   "conf": "verified",
+   "fact": "China produced 97% of the world’s battery anode materials in 2023.",
+   "src": [
+    [
+     "Yicai Global, Jan 2024",
+     "https://yicaiglobal.com/news/china-produced-97-of-worlds-battery-anode-materials-last-year"
+    ]
+   ],
+   "fix": [
+    {
+     "co": "Redwood",
+     "w": 1,
+     "note": "Recovers battery materials from used cells and scrap."
+    },
+    {
+     "co": "Mariana",
+     "w": 1,
+     "note": "Developing Lithium One in East Texas."
+    },
+    {
+     "co": "Peak Energy",
+     "w": 0.5,
+     "note": "Sodium-ion chemistry sidesteps lithium."
+    }
+   ]
+  },
+  {
+   "id": "cu",
+   "label": "Copper smelting",
+   "R": 3,
+   "conf": "verified",
+   "fact": "The US had only 2 operating primary copper smelters in 2025.",
+   "src": [
+    [
+     "USGS Mineral Commodity Summaries 2026, Copper",
+     "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-copper.pdf"
+    ]
+   ],
+   "fix": [
+    {
+     "co": "Mariana",
+     "w": 1,
+     "note": "Owns and is automating the Copper One mine and refinery in Utah."
+    }
+   ]
+  },
+  {
+   "id": "ener",
+   "label": "Energetics",
+   "R": 4,
+   "conf": "verified",
+   "fact": "Ammonium perchlorate, the oxidizer in solid rocket motors, has one qualified US producer (AMPAC, Utah). Solid rocket motor makers shrank from six to two between 1995 and 2017. The US has not made TNT since 1986; the Army awarded $435M for a Repkon USA plant in Kentucky.",
+   "src": [
+    [
+     "TechCrunch, Aug 2025",
+     "https://techcrunch.com/2025/08/12/anduril-opens-solid-rocket-motor-factory-amidst-ongoing-chemical-chokepoint/"
+    ],
+    [
+     "Breaking Defense, Jan 2026",
+     "https://breakingdefense.com/2026/01/with-the-boom-for-solid-rocket-motors-for-missiles-a-perilous-crunch-in-the-supply-chain/"
+    ],
+    [
+     "AP via ABC17, Nov 2024",
+     "https://abc17news.com/news/2024/11/08/army-says-the-us-will-restart-domestic-tnt-production-at-plant-to-be-built-in-kentucky/"
+    ]
+   ],
+   "fix": [
+    {
+     "co": "Anduril",
+     "w": 0.5,
+     "note": "Opened a solid rocket motor factory in 2025 (TechCrunch); not in the a16z profile."
+    },
+    {
+     "co": "Mach",
+     "w": 0.5,
+     "note": "Develops propulsion in-house."
+    }
+   ]
+  },
+  {
+   "id": "haleu",
+   "label": "HALEU fuel",
+   "R": 5,
+   "conf": "verified",
+   "fact": "The US government has long worried that Russia has a monopoly on HALEU. Centrus, the only US producer, is at demonstration scale: 20 kg delivered in Phase I, with a 900 kg target in Phase II.",
+   "src": [
+    [
+     "NucNet, Jun 2025",
+     "https://www.nucnet.org/news/us-doe-extends-centrus-contract-to-produce-crucial-haleu-for-advanced-reactors-6-5-2025"
+    ]
+   ],
+   "fix": [
+    {
+     "co": "General Matter",
+     "w": 1,
+     "note": "$900M DOE award to build HALEU enrichment at Paducah, KY."
+    }
+   ]
+  },
+  {
+   "id": "xfmr",
+   "label": "Power transformers",
+   "R": 4,
+   "conf": "verified",
+   "fact": "Imports were an estimated 80% of US power transformer supply in 2025. Utilities wait 2 to 4 years, and up to 5.",
+   "src": [
+    [
+     "Renewable Energy World citing Wood Mackenzie, Aug 2025",
+     "https://www.renewableenergyworld.com/power-grid/can-the-us-catch-up-to-transformer-demand/"
+    ]
+   ],
+   "fix": [
+    {
+     "co": "Heron Power",
+     "w": 1,
+     "note": "Solid-state Heron Link replaces functions of transformers."
+    },
+    {
+     "co": "Unlimited",
+     "w": 0.5,
+     "note": "Speeds design and construction of power infrastructure."
+    }
+   ]
+  },
+  {
+   "id": "chip",
+   "label": "Leading-edge chips",
+   "R": 4,
+   "conf": "qualitative",
+   "fact": "Leading-edge logic chips are made mostly in Taiwan. The exact share is not verified here.",
+   "src": [],
+   "fix": []
+  },
+  {
+   "id": "pcb",
+   "label": "Circuit board fabs",
+   "R": 4,
+   "conf": "verified",
+   "fact": "The US share of global circuit board production fell from over 30% in 2000 to 4%. China makes roughly 50% to 56% (2020).",
+   "src": [
+    [
+     "IPC, Jan 2022",
+     "https://www.electronics.org/news-release/flaws-us-approach-electronics-manufacturing-require-urgent-changes-or-nation-will-grow"
+    ],
+    [
+     "ITIF, Jul 2022",
+     "https://itif.org/publications/2022/07/11/fact-of-the-week-us-share-of-the-pcb-market"
+    ]
+   ],
+   "fix": [
+    {
+     "co": "Diode",
+     "w": 0.5,
+     "note": "Cuts supplier handoffs for boards; it does not fabricate them."
+    }
+   ]
+  },
+  {
+   "id": "labor",
+   "label": "Skilled factory labor",
+   "R": 3,
+   "conf": "verified",
+   "fact": "US manufacturing could need up to 3.8 million new workers from 2024 to 2033, and 1.9 million of those jobs could go unfilled.",
+   "src": [
+    [
+     "Manufacturing Institute / Deloitte, Apr 2024",
+     "https://themanufacturinginstitute.org/manufacturers-need-as-many-as-3-8-million-new-employees-by-2033/"
+    ]
+   ],
+   "fix": [
+    {
+     "co": "Arda",
+     "w": 0.5,
+     "note": "Turns designs into assembly plans."
+    },
+    {
+     "co": "Nominal",
+     "w": 0.5,
+     "note": "Test data platform."
+    },
+    {
+     "co": "Prometheus",
+     "w": 0.5,
+     "note": "AI for engineering design."
+    },
+    {
+     "co": "Generalist",
+     "w": 0.5,
+     "note": "Robots learning from demonstration."
+    },
+    {
+     "co": "Mind Robotics",
+     "w": 0.5,
+     "note": "Robots for jobs fixed equipment cannot do."
+    },
+    {
+     "co": "Foundry",
+     "w": 0.5,
+     "note": "Flexible robotic assembly cells."
+    },
+    {
+     "co": "Hadrian",
+     "w": 0.5,
+     "note": "Opus software trains technicians faster."
+    }
+   ]
+  },
+  {
+   "id": "poly",
+   "label": "Solar polysilicon",
+   "R": 4,
+   "conf": "qualitative",
+   "fact": "Solar polysilicon and wafers are made overwhelmingly in China. The exact share is not verified here.",
+   "src": [],
+   "fix": []
+  },
+  {
+   "id": "hyp",
+   "label": "Hypersonic test range",
+   "R": 3,
+   "conf": "qualitative",
+   "fact": "US hypersonic flight tests are scarce and expensive, which slows each design iteration. This is a qualitative judgment.",
+   "src": [],
+   "fix": [
+    {
+     "co": "Varda",
+     "w": 1,
+     "note": "Reentry capsules collect hypersonic flight data for the government."
+    }
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "id": "motor",
+   "label": "Electric motors & actuators",
+   "up": [
+    "ree",
+    "cu"
+   ],
+   "sup": [
+    {
+     "co": "Westmag",
+     "w": 1,
+     "basis": "s"
+    }
+   ]
+  },
+  {
+   "id": "battery",
+   "label": "Battery cells & packs",
+   "up": [
+    "batt"
+   ],
+   "sup": [
+    {
+     "co": "Redwood",
+     "w": 1,
+     "basis": "s"
+    },
+    {
+     "co": "Mariana",
+     "w": 0.5,
+     "basis": "s"
+    },
+    {
+     "co": "Peak Energy",
+     "w": 0.5,
+     "basis": "s"
+    },
+    {
+     "co": "Base Power",
+     "w": 0.5,
+     "basis": "s"
+    },
+    {
+     "co": "Foundry",
+     "w": 0.5,
+     "basis": "s"
+    }
+   ]
+  },
+  {
+   "id": "rf",
+   "label": "RF / radar electronics",
+   "up": [
+    "ga",
+    "chip"
+   ],
+   "sup": []
+  },
+  {
+   "id": "compute",
+   "label": "AI & edge compute",
+   "up": [
+    "chip"
+   ],
+   "sup": [
+    {
+     "co": "Specter",
+     "w": 0.25,
+     "basis": "s"
+    }
+   ]
+  },
+  {
+   "id": "pcb",
+   "label": "Circuit boards",
+   "up": [
+    "pcb",
+    "cu"
+   ],
+   "sup": [
+    {
+     "co": "Diode",
+     "w": 0.5,
+     "basis": "s"
+    },
+    {
+     "co": "Podium",
+     "w": 0.5,
+     "basis": "s"
+    }
+   ]
+  },
+  {
+   "id": "harness",
+   "label": "Wire harnesses",
+   "up": [
+    "cu"
+   ],
+   "sup": [
+    {
+     "co": "Senra",
+     "w": 1,
+     "basis": "s"
+    },
+    {
+     "co": "Mariana",
+     "w": 0.5,
+     "basis": "s"
+    }
+   ]
+  },
+  {
+   "id": "machined",
+   "label": "Precision machined parts",
+   "up": [
+    "ti",
+    "w",
+    "labor"
+   ],
+   "sup": [
+    {
+     "co": "Hadrian",
+     "w": 1,
+     "basis": "s"
+    },
+    {
+     "co": "Amca",
+     "w": 1,
+     "basis": "s"
+    },
+    {
+     "co": "SendCutSend",
+     "w": 1,
+     "basis": "s"
+    }
+   ]
+  },
+  {
+   "id": "molded",
+   "label": "Molded plastic parts",
+   "up": [
+    "labor"
+   ],
+   "sup": [
+    {
+     "co": "Atomic",
+     "w": 1,
+     "basis": "s"
+    }
+   ]
+  },
+  {
+   "id": "energetics",
+   "label": "Warheads & solid motors",
+   "up": [
+    "ener",
+    "sb",
+    "w"
+   ],
+   "sup": [
+    {
+     "co": "Anduril",
+     "w": 0.5,
+     "basis": "x"
+    },
+    {
+     "co": "Mach",
+     "w": 0.5,
+     "basis": "s"
+    }
+   ]
+  },
+  {
+   "id": "turbine",
+   "label": "Jet engines",
+   "up": [
+    "cast",
+    "ti"
+   ],
+   "sup": [
+    {
+     "co": "Hermeus",
+     "w": 0.5,
+     "basis": "s"
+    }
+   ]
+  },
+  {
+   "id": "optics",
+   "label": "IR & EO sensors",
+   "up": [
+    "ge"
+   ],
+   "sup": []
+  },
+  {
+   "id": "launch",
+   "label": "Launch to orbit",
+   "up": [
+    "cast",
+    "labor"
+   ],
+   "sup": [
+    {
+     "co": "Stoke",
+     "w": 1,
+     "basis": "s"
+    },
+    {
+     "co": "Relativity",
+     "w": 1,
+     "basis": "s"
+    },
+    {
+     "co": "Impulse",
+     "w": 0.5,
+     "basis": "s"
+    }
+   ]
+  },
+  {
+   "id": "hyptest",
+   "label": "Hypersonic flight data",
+   "up": [
+    "hyp"
+   ],
+   "sup": [
+    {
+     "co": "Varda",
+     "w": 1,
+     "basis": "s"
+    }
+   ]
+  },
+  {
+   "id": "metal",
+   "label": "Metal stock & tooling",
+   "up": [
+    "ti",
+    "w",
+    "cast"
+   ],
+   "sup": [
+    {
+     "co": "Amca",
+     "w": 0.5,
+     "basis": "s"
+    }
+   ]
+  },
+  {
+   "id": "power",
+   "label": "Grid & site power",
+   "up": [
+    "xfmr",
+    "poly",
+    "batt"
+   ],
+   "sup": [
+    {
+     "co": "Heron Power",
+     "w": 1,
+     "basis": "s"
+    },
+    {
+     "co": "Unlimited",
+     "w": 0.5,
+     "basis": "s"
+    },
+    {
+     "co": "Ambrosia",
+     "w": 0.5,
+     "basis": "s"
+    },
+    {
+     "co": "Base Power",
+     "w": 0.5,
+     "basis": "s"
+    },
+    {
+     "co": "Peak Energy",
+     "w": 0.5,
+     "basis": "s"
+    },
+    {
+     "co": "Radiant",
+     "w": 0.5,
+     "basis": "s"
+    },
+    {
+     "co": "Valar",
+     "w": 0.5,
+     "basis": "s"
+    },
+    {
+     "co": "Endurance",
+     "w": 0.5,
+     "basis": "s"
+    },
+    {
+     "co": "Chariot",
+     "w": 0.5,
+     "basis": "s"
+    }
+   ]
+  },
+  {
+   "id": "fuel",
+   "label": "Reactor fuel",
+   "up": [
+    "haleu"
+   ],
+   "sup": [
+    {
+     "co": "General Matter",
+     "w": 1,
+     "basis": "s"
+    }
+   ]
+  },
+  {
+   "id": "work",
+   "label": "Production engineering & labor",
+   "up": [
+    "labor"
+   ],
+   "sup": [
+    {
+     "co": "Arda",
+     "w": 0.5,
+     "basis": "s"
+    },
+    {
+     "co": "Nominal",
+     "w": 0.5,
+     "basis": "s"
+    },
+    {
+     "co": "Prometheus",
+     "w": 0.5,
+     "basis": "s"
+    },
+    {
+     "co": "Generalist",
+     "w": 0.5,
+     "basis": "s"
+    },
+    {
+     "co": "Mind Robotics",
+     "w": 0.5,
+     "basis": "s"
+    },
+    {
+     "co": "Foundry",
+     "w": 0.5,
+     "basis": "s"
+    },
+    {
+     "co": "Hadrian",
+     "w": 0.5,
+     "basis": "s"
+    }
+   ]
+  }
+ ],
+ "scores": [
+  {
+   "id": "w",
+   "label": "Tungsten",
+   "R": 5,
+   "sys": 15,
+   "all": 23,
+   "cov": 0,
+   "score": 115.0,
+   "score100": 100
+  },
+  {
+   "id": "chip",
+   "label": "Leading-edge chips",
+   "R": 4,
+   "sys": 19,
+   "all": 27,
+   "cov": 0,
+   "score": 108.0,
+   "score100": 94
+  },
+  {
+   "id": "ti",
+   "label": "Titanium sponge",
+   "R": 4,
+   "sys": 12,
+   "all": 20,
+   "cov": 0,
+   "score": 80.0,
+   "score100": 70
+  },
+  {
+   "id": "pcb",
+   "label": "Circuit board fabs",
+   "R": 4,
+   "sys": 23,
+   "all": 27,
+   "cov": 0.5,
+   "score": 72.0,
+   "score100": 63
+  },
+  {
+   "id": "poly",
+   "label": "Solar polysilicon",
+   "R": 4,
+   "sys": 1,
+   "all": 13,
+   "cov": 0,
+   "score": 52.0,
+   "score100": 45
+  },
+  {
+   "id": "ga",
+   "label": "Gallium",
+   "R": 5,
+   "sys": 10,
+   "all": 10,
+   "cov": 0,
+   "score": 50.0,
+   "score100": 43
+  },
+  {
+   "id": "ree",
+   "label": "Rare earth magnets",
+   "R": 5,
+   "sys": 11,
+   "all": 14,
+   "cov": 0.5,
+   "score": 46.666666666666664,
+   "score100": 41
+  },
+  {
+   "id": "cu",
+   "label": "Copper smelting",
+   "R": 3,
+   "sys": 23,
+   "all": 31,
+   "cov": 1,
+   "score": 46.5,
+   "score100": 40
+  },
+  {
+   "id": "batt",
+   "label": "Battery materials",
+   "R": 5,
+   "sys": 16,
+   "all": 31,
+   "cov": 2.5,
+   "score": 44.285714285714285,
+   "score100": 39
+  },
+  {
+   "id": "ge",
+   "label": "Germanium",
+   "R": 4,
+   "sys": 9,
+   "all": 9,
+   "cov": 0,
+   "score": 36.0,
+   "score100": 31
+  },
+  {
+   "id": "sb",
+   "label": "Antimony",
+   "R": 4,
+   "sys": 7,
+   "all": 7,
+   "cov": 0,
+   "score": 28.0,
+   "score100": 24
+  },
+  {
+   "id": "xfmr",
+   "label": "Power transformers",
+   "R": 4,
+   "sys": 1,
+   "all": 13,
+   "cov": 1.5,
+   "score": 20.8,
+   "score100": 18
+  },
+  {
+   "id": "labor",
+   "label": "Skilled factory labor",
+   "R": 3,
+   "sys": 17,
+   "all": 27,
+   "cov": 3.5,
+   "score": 18.0,
+   "score100": 16
+  },
+  {
+   "id": "cast",
+   "label": "Superalloy castings",
+   "R": 3,
+   "sys": 6,
+   "all": 11,
+   "cov": 1.0,
+   "score": 16.5,
+   "score100": 14
+  },
+  {
+   "id": "ener",
+   "label": "Energetics",
+   "R": 4,
+   "sys": 7,
+   "all": 7,
+   "cov": 1.0,
+   "score": 14.0,
+   "score100": 12
+  },
+  {
+   "id": "haleu",
+   "label": "HALEU fuel",
+   "R": 5,
+   "sys": 0,
+   "all": 2,
+   "cov": 1,
+   "score": 5.0,
+   "score100": 4
+  },
+  {
+   "id": "hyp",
+   "label": "Hypersonic test range",
+   "R": 3,
+   "sys": 2,
+   "all": 2,
+   "cov": 1,
+   "score": 3.0,
+   "score100": 3
+  }
+ ]
+}
